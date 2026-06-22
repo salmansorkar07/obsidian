@@ -58,9 +58,10 @@
     text-decoration:none;
     display:flex;
     align-items:center;
-    gap:8px;
+    gap:10px;
   }
   .logo .dot{color:var(--accent);}
+  .logo-icon{width:28px;height:28px;flex-shrink:0;}
   .nav-links{
     display:flex;
     gap:32px;
@@ -473,7 +474,7 @@
 
 <header>
   <div class="wrap nav">
-    <a href="#" class="logo" onclick="showHome();return false;">OBSIDIAN<span class="dot">.</span></a>
+    <a href="#" class="logo" onclick="showHome();return false;"><svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="14,2 26,8 26,20 14,26 2,20 2,8" fill="#FF4D2E" opacity="0.15"/><polygon points="14,2 26,8 14,14" fill="#FF4D2E" opacity="0.9"/><polygon points="14,2 2,8 14,14" fill="#FF4D2E" opacity="0.6"/><polygon points="2,8 2,20 14,14" fill="#FF4D2E" opacity="0.4"/><polygon points="26,8 26,20 14,14" fill="#FF4D2E" opacity="0.7"/><polygon points="2,20 14,26 14,14" fill="#FF4D2E" opacity="0.5"/><polygon points="14,26 26,20 14,14" fill="#FF4D2E" opacity="0.8"/></svg>OBSIDIAN<span class="dot">.</span></a>
     <nav class="nav-links">
       <a href="#" onclick="showHome();return false;">Posts</a>
       <a href="#about" onclick="scrollToAbout();return false;">Manifesto</a>
@@ -540,7 +541,7 @@
 
 <footer>
   <div class="wrap footer-row">
-    <a href="#" class="logo" onclick="showHome();return false;" style="font-size:18px;">OBSIDIAN<span class="dot">.</span></a>
+    <a href="#" class="logo" onclick="showHome();return false;" style="font-size:18px;"><svg class="logo-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="14,2 26,8 26,20 14,26 2,20 2,8" fill="#FF4D2E" opacity="0.15"/><polygon points="14,2 26,8 14,14" fill="#FF4D2E" opacity="0.9"/><polygon points="14,2 2,8 14,14" fill="#FF4D2E" opacity="0.6"/><polygon points="2,8 2,20 14,14" fill="#FF4D2E" opacity="0.4"/><polygon points="26,8 26,20 14,14" fill="#FF4D2E" opacity="0.7"/><polygon points="2,20 14,26 14,14" fill="#FF4D2E" opacity="0.5"/><polygon points="14,26 26,20 14,14" fill="#FF4D2E" opacity="0.8"/></svg>OBSIDIAN<span class="dot">.</span></a>
     <div class="footer-note">Posts are saved in this browser. Use Export to back them up.</div>
     <div class="footer-note">
       <button class="icon-btn" onclick="exportPosts()" title="Export posts as JSON" style="width:auto;padding:0 12px;">Export ⬇</button>
@@ -612,6 +613,22 @@
       excerpt: "Discipline isn't a personality trait. It's a math problem — and most people are solving for the wrong variable.",
       date: "2026-06-14",
       body: `People treat discipline like a character trait you either have or don't. That framing is not just wrong, it's actively harmful, because it turns every lapse into evidence of a personal flaw instead of a fixable input.\n\nDiscipline is closer to an equation: friction versus identity. The more friction between you and the action, the more willpower it costs. The stronger your identity around the behavior, the less willpower it requires. Most people try to fix discipline problems by adding more willpower. That's solving for the wrong variable.\n\nReducing friction is mechanical and almost boring: laying out the gym clothes the night before, keeping the guitar out of its case, opening the document before you close the laptop the night before. None of this requires motivation. It requires fifteen seconds of setup that removes the decision point where most plans die.\n\nBuilding identity is slower but more durable. Every time you complete the small version of the action, you're not just making progress on the task — you're casting a vote for the kind of person who does this. Enough votes, and the behavior stops requiring discipline at all. It becomes who you are.\n\nStop trying to want it more. Start making it easier to do and more consistent with who you're becoming. That's the actual equation.`
+    },
+    {
+      id: 'p_new1',
+      title: "The Silent War Inside Your Head",
+      tag: "Mindset",
+      excerpt: "Every day you're either winning or losing an argument with yourself. Most people don't even know they're fighting.",
+      date: "2026-06-22",
+      body: `There's a conversation happening in your head right now that you didn't choose to start. It started years ago — shaped by every failure you were told to be ashamed of, every standard you were held to, every moment you decided you weren't enough. That inner voice isn't you. It's a script. And most people spend their entire lives reading it without ever questioning who wrote it.\n\nNeuroscience calls it the default mode network — the part of your brain that activates when you're not focused on an external task. It's responsible for self-referential thought, and in most people it runs negative. Not because negativity is natural, but because the brain prioritizes threat detection over contentment. Your ancestors survived by assuming the worst. You inherited that setting.\n\nThe war isn't between you and the world. It's between you and the narrative your brain defaults to when nobody's watching. You can't win it by being positive. You win it by becoming aware — catching the script mid-sentence, labeling it as a pattern instead of a truth, and choosing a different response. Not every day. Not perfectly. Just more often than yesterday.\n\nThat's the only battlefield that actually matters.`
+    },
+    {
+      id: 'p_new2',
+      title: "Hard Choices, Easy Life. Easy Choices, Hard Life.",
+      tag: "Discipline",
+      excerpt: "Every decision you avoid today becomes a heavier decision tomorrow. There is no neutral ground.",
+      date: "2026-06-22",
+      body: `Jerzy Gregorek, who won four World Championship titles in weightlifting, said it in seven words: "Hard choices, easy life. Easy choices, hard life." It's the most compressed piece of wisdom on discipline ever written. And almost nobody actually lives by it.\n\nThe avoidance feels rational in the moment. Skip the difficult conversation and there's no conflict today. Skip the workout and there's comfort tonight. Scroll instead of work and the anxiety disappears for twenty minutes. But avoidance is a loan, not a solution — and the interest compounds. The conversation you didn't have grows into resentment. The workouts you skipped accumulate into a body you don't recognize. The work you postponed piles into a crisis you can't avoid.\n\nEvery hard choice you make today is a payment toward a lighter tomorrow. Every easy choice is a debt. The math is always the same — you're either paying now at a low rate, or paying later at a brutal one. Discipline isn't about punishment. It's about understanding that the pain of discipline is always smaller than the pain of regret.\n\nThe hard thing you're avoiding right now? It's only going to get harder. The best time to do it was yesterday. The second best time is today.`
     },
     {
       id: 'p1782113659839',
